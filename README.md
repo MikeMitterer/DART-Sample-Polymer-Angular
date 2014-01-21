@@ -24,4 +24,4 @@ If this plugin is helpful for you - please [(Circle)](http://gplus.mikemitterer.
 or visit my [website][99].
 
 [1]: https://plus.google.com/u/0/+MikeMitterer/posts/2ztYDNPRi6K
-[99]: http://wwww.mikemitterer.at/
+[99]: http://www.mikemitterer.at/
