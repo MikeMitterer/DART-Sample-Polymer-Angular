@@ -5,7 +5,7 @@ A sample to verify a [discussion][1] on DartLang (G+)
 
 ###License###
 
-    Copyright 2013 Michael Mitterer, IT-Consulting and Development Limited,
+    Copyright 2014 Michael Mitterer, IT-Consulting and Development Limited,
     Austrian Branch
 
     Licensed under the Apache License, Version 2.0 (the "License");
