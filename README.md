@@ -3,6 +3,8 @@ DART-Sample-PolymerHelloWorld
 
 A sample to verify a [discussion][1] on DartLang (G+)
 
+JavaScript-Version is [here][2]
+
 ###License###
 
     Copyright 2014 Michael Mitterer, IT-Consulting and Development Limited,
@@ -24,4 +26,6 @@ If this plugin is helpful for you - please [(Circle)](http://gplus.mikemitterer.
 or visit my [website][99].
 
 [1]: https://plus.google.com/u/0/+MikeMitterer/posts/2ztYDNPRi6K
+[2]: https://rawgithub.com/MikeMitterer/DART-Sample-PolymerHelloWorld/master/build/index.html
+
 [99]: http://www.mikemitterer.at/
