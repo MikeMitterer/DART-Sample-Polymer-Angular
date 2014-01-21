@@ -75,12 +75,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="hello-world.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="hello-world.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/hello-world.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="35" selection-start="61" selection-end="61" vertical-scroll-proportion="0.018656716" vertical-offset="0" max-vertical-offset="804">
+                <state line="1" column="35" selection-start="61" selection-end="61" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="195">
                   <folding />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.4307116" vertical-offset="0" max-vertical-offset="495">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="MarkdownPreviewEditor">
+                <state />
               </provider>
             </entry>
           </file>
@@ -112,6 +124,7 @@
         <option value="$PROJECT_DIR$/web/HelloWorldElement.dart" />
         <option value="$PROJECT_DIR$/web/hello-world.html" />
         <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -408,12 +421,12 @@
       <changelist id="b4a2d398-d839-4a52-9225-3cf316b89401" name="Default" comment="" />
       <created>1390323920793</created>
       <updated>1390323920793</updated>
-      <workItem from="1390323922120" duration="1647000" />
+      <workItem from="1390323922120" duration="2415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1647000" />
+    <option name="totallyTimeSpent" value="2415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="27" width="2487" height="1393" extended-state="0" />
@@ -480,9 +493,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/hello-world.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="61" selection-end="61" vertical-scroll-proportion="0.018656716" vertical-offset="0" max-vertical-offset="804">
+        <state line="1" column="35" selection-start="61" selection-end="61" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="900" selection-end="900" vertical-scroll-proportion="0.4307116" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
