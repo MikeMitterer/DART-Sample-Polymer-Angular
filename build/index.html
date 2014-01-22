@@ -11,10 +11,11 @@
 <body><polymer-element name="hello-world">
     <template>
         <button on-click="{{increment}}">Click Me</button>
-        <p>Hello from inside a custom element! Clicks: {{count}}</p><p>
+        <p>Hello from inside a custom element! Clicks: {{count}}</p>
+    </template>
     
-    
-</p></template></polymer-element><polymer-element name="tute-stopwatch">
+</polymer-element>
+<polymer-element name="tute-stopwatch">
 
     <template>
         <style>
@@ -45,17 +46,15 @@
 </polymer-element>
 
 
-<h1>Hi first world!</h1>
-<hello-world></hello-world>
-<h1>Hi second world!</h1>
-<hello-world></hello-world>
+    <h1>Hi first world!</h1>
+    <hello-world></hello-world>
 
+    <h1>Hi second world!</h1>
+    <hello-world></hello-world>
 
     <h1>Stopwatch 1:</h1>
     <tute-stopwatch></tute-stopwatch>
 
-
     
-    <!-- NOT dart.js -->
     
 </body></html>
