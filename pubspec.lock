@@ -37,6 +37,10 @@ packages:
     description: logging
     source: hosted
     version: "0.9.1+1"
+  mdv:
+    description: mdv
+    source: hosted
+    version: "0.8.5"
   mutation_observer:
     description: mutation_observer
     source: hosted
