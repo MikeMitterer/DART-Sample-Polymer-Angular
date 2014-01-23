@@ -30,6 +30,6 @@ or visit my [website][99].
 
 [1]: https://plus.google.com/u/0/+MikeMitterer/posts/2ztYDNPRi6K
 [2]: https://rawgithub.com/MikeMitterer/DART-Sample-PolymerHelloWorld/master/build/index.html
-[3]: Two components communicate with each other via EventBus.<br>
+[3]: https://github.com/sethladd/dart-example-two-components-one-model
 
 [99]: http://www.mikemitterer.at/
