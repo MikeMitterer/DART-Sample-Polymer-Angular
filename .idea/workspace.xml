@@ -152,13 +152,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider editor-type-id="MarkdownPreviewEditor">
                 <state />
               </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.07506255" vertical-offset="0" max-vertical-offset="1199">
+                <state line="33" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.41284403" vertical-offset="0" max-vertical-offset="1199">
                   <folding />
                 </state>
               </provider>
@@ -186,7 +186,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pubspec.yaml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="pubspec.yaml" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pubspec.yaml">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="23" selection-start="6" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1226">
@@ -263,7 +263,6 @@
       <list>
         <option value="$PROJECT_DIR$/web/HelloWorldElement.dart" />
         <option value="$PROJECT_DIR$/web/hello-world.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/stopwatch/stopwatch.html" />
         <option value="$PROJECT_DIR$/build.dart" />
         <option value="$PROJECT_DIR$/web/hello-world/hello-world.html" />
@@ -281,6 +280,7 @@
         <option value="$PROJECT_DIR$/web/event-consumer/event-consumer.dart" />
         <option value="$PROJECT_DIR$/packages/PolymerHelloWorld/globaleventbus.dart" />
         <option value="$PROJECT_DIR$/web/event-consumer/event-consumer.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -679,12 +679,12 @@
       <workItem from="1390459966096" duration="7672000" />
       <workItem from="1390476198444" duration="858000" />
       <workItem from="1390477065381" duration="4441000" />
-      <workItem from="1390481563115" duration="227000" />
+      <workItem from="1390481563115" duration="427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20534000" />
+    <option name="totallyTimeSpent" value="20734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="39" width="2487" height="1393" extended-state="0" />
@@ -1096,16 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.07506255" vertical-offset="0" max-vertical-offset="1199">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/event-consumer/event-consumer.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
@@ -1116,6 +1106,16 @@
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="23" selection-start="6" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.41284403" vertical-offset="0" max-vertical-offset="1199">
           <folding />
         </state>
       </provider>

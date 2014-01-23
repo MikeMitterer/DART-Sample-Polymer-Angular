@@ -5,6 +5,9 @@ A sample to verify a [discussion][1] on DartLang (G+)
 
 JavaScript-Version is [here][2]
 
+Two components communicate with each other via EventBus.<br>
+Another approach is to communicate via [shared Model][3].
+
 ###License###
 
     Copyright 2014 Michael Mitterer, IT-Consulting and Development Limited,
@@ -27,5 +30,6 @@ or visit my [website][99].
 
 [1]: https://plus.google.com/u/0/+MikeMitterer/posts/2ztYDNPRi6K
 [2]: https://rawgithub.com/MikeMitterer/DART-Sample-PolymerHelloWorld/master/build/index.html
+[3]: Two components communicate with each other via EventBus.<br>
 
 [99]: http://www.mikemitterer.at/
