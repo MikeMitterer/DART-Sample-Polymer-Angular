@@ -11,3 +11,5 @@ transformers:
 -  polymer:
     entry_points:
     - web/index.html
+    - web/hello-world/hello-world.html
+    - web/stopwatch/stopwatch.html
