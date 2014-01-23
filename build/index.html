@@ -4,6 +4,7 @@
 
     
     
+    
     <script src="index.html_bootstrap.dart.js"></script>
 
 </head>
@@ -12,6 +13,12 @@
     <template>
         <button on-click="{{increment}}">Click Me</button>
         <p>Hello from inside a custom element! Clicks: {{count}}</p>
+    </template>
+    
+</polymer-element>
+<polymer-element name="event-consumer">
+    <template>
+        <p>Got {{count}} number of clicks.</p>
     </template>
     
 </polymer-element>
@@ -51,6 +58,9 @@
 
     <h1>Hi second world!</h1>
     <hello-world></hello-world>
+
+    <h1>EventConsumer:</h1>
+    <event-consumer></event-consumer>
 
     <h1>Stopwatch 1:</h1>
     <tute-stopwatch></tute-stopwatch>

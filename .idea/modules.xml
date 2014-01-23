@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PolymerHelloWorld.iml" filepath="$PROJECT_DIR$/PolymerHelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../PolymerSecondWorld/PolymerSecondWorld.iml" filepath="$PROJECT_DIR$/../PolymerSecondWorld/PolymerSecondWorld.iml" />
     </modules>
   </component>
 </project>

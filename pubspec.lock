@@ -25,6 +25,10 @@ packages:
     description: custom_element
     source: hosted
     version: "0.9.1+2"
+  event_bus:
+    description: event_bus
+    source: hosted
+    version: "0.2.4"
   html5lib:
     description: html5lib
     source: hosted
@@ -33,6 +37,10 @@ packages:
     description: html_import
     source: hosted
     version: "0.9.0"
+  intl:
+    description: intl
+    source: hosted
+    version: "0.9.1"
   logging:
     description: logging
     source: hosted
