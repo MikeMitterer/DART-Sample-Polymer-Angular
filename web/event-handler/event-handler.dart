@@ -1,23 +1,23 @@
-import 'package:polymer/polymer.dart';
-import 'package:json/json.dart' as JSON;
+    import 'package:polymer/polymer.dart';
+    import 'package:json/json.dart' as JSON;
 
-@CustomTag('event-handler')
-class EventHandler  extends PolymerElement {
+    @CustomTag('event-handler')
+    class EventHandler  extends PolymerElement {
 
-    @observable String response = "";
-    @observable int randomnumber = 0;
+        @observable String response = "";
+        @observable int randomnumber = 0;
 
-    EventHandler.created() : super.created();
+        EventHandler.created() : super.created();
 
-    void handleHelloEvent(Event e, var detail, Node target) {
-        final Map json = JSON.parse(detail);
+        void handleHelloEvent(Event e, var detail, Node target) {
+            final Map json = JSON.parse(detail);
 
-        response = json['response'];
-        randomnumber = json['random'];
+            response = json['response'];
+            randomnumber = json['random'];
 
-        print("Received event! $detail");
+            print("Received event! $detail");
+        }
+    //-------------------
+    // private
+    //-------------------
     }
-//-------------------
-// private
-//-------------------
-}

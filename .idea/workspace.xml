@@ -66,6 +66,15 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
+          <file leaf-file-name="hello-world.dart" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.dart">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="35" selection-start="860" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="globaleventbus.dart" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/globaleventbus.dart">
               <provider selected="true" editor-type-id="text-editor">
@@ -120,34 +129,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="event-handler.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="event-handler.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="69" selection-start="462" selection-end="462" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
-                  <folding>
-                    <marker date="1390817988000" expanded="true" signature="119:461" placeholder="..." />
-                    <marker date="1390817988000" expanded="true" signature="150:202" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="hello-world.html" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="82" selection-start="235" selection-end="235" vertical-scroll-proportion="0.09590793" vertical-offset="0" max-vertical-offset="782">
+                <state line="2" column="0" selection-start="44" selection-end="120" vertical-scroll-proportion="0.03836317" vertical-offset="0" max-vertical-offset="782">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider editor-type-id="MarkdownPreviewEditor">
-                <state />
-              </provider>
+          <file leaf-file-name="hello-world.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="-8.333333" vertical-offset="0" max-vertical-offset="765">
+                <state line="0" column="4" selection-start="4" selection-end="459" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
                   <folding />
                 </state>
               </provider>
@@ -156,7 +150,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="0" selection-start="404" selection-end="480" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="525">
+                <state line="30" column="54" selection-start="775" selection-end="775" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="540">
                   <folding />
                 </state>
               </provider>
@@ -169,7 +163,7 @@
           <file leaf-file-name="event-handler.dart" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.dart">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="39" selection-end="79" vertical-scroll-proportion="0.018610422" vertical-offset="0" max-vertical-offset="806">
+                <state line="0" column="4" selection-start="0" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="806">
                   <folding />
                 </state>
               </provider>
@@ -278,13 +272,13 @@
         <option value="$PROJECT_DIR$/web/error-handler/error-handler.html" />
         <option value="$PROJECT_DIR$/web/error-handler/error-handler.dart" />
         <option value="$PROJECT_DIR$/web/event-consumer/event-consumer.html" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/hello-world/hello-world.html" />
+        <option value="$PROJECT_DIR$/web/hello-world/hello-world.dart" />
         <option value="$PROJECT_DIR$/web/event-handler/event-handler.html" />
         <option value="$PROJECT_DIR$/web/event-handler/event-handler.dart" />
-        <option value="$PROJECT_DIR$/web/hello-world/hello-world.dart" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/web/hello-world/hello-world.html" />
       </list>
     </option>
   </component>
@@ -705,16 +699,16 @@
       <workItem from="1390481563115" duration="1100000" />
       <workItem from="1390556461497" duration="7000" />
       <workItem from="1390556477008" duration="23000" />
-      <workItem from="1390807326916" duration="5316000" />
+      <workItem from="1390807326916" duration="7971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26753000" />
+    <option name="totallyTimeSpent" value="29408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="40" width="2487" height="1393" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -734,7 +728,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13619632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13619632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32784313" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1064,37 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="69" selection-start="462" selection-end="462" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
-          <folding>
-            <marker date="1390817988000" expanded="true" signature="119:461" placeholder="..." />
-            <marker date="1390817988000" expanded="true" signature="150:202" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="79" vertical-scroll-proportion="0.018610422" vertical-offset="0" max-vertical-offset="806">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="404" selection-end="480" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PolymerElementConsumer/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -1117,7 +1080,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="82" selection-start="235" selection-end="235" vertical-scroll-proportion="0.09590793" vertical-offset="0" max-vertical-offset="782">
+        <state line="0" column="4" selection-start="4" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="54" selection-start="775" selection-end="775" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="4" selection-start="0" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="35" selection-start="860" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="44" selection-end="120" vertical-scroll-proportion="0.03836317" vertical-offset="0" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
