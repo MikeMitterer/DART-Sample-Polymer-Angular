@@ -5,6 +5,16 @@ A sample to verify a [discussion][1] on DartLang (G+)
 
 JavaScript-Version is [here][2]
 
+<strong>v1.2</strong>
+event-handler added.
+Now something like this works:
+```html
+    <event-handler>
+        <hello-world></hello-world>
+    </event-handler>
+```
+
+<strong>v1.1</strong>
 Two components communicate with each other via EventBus.<br>
 Another approach is to communicate via [shared Model][3].
 

@@ -41,6 +41,10 @@ packages:
     description: intl
     source: hosted
     version: "0.9.1"
+  json:
+    description: json
+    source: hosted
+    version: "0.9.1"
   logging:
     description: logging
     source: hosted

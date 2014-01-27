@@ -66,19 +66,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="hello-world.dart" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.dart">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="41" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="405">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="globaleventbus.dart" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lib/globaleventbus.dart">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+                <state line="24" column="1" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
                   <folding />
                 </state>
               </provider>
@@ -105,7 +96,7 @@
           <file leaf-file-name="event-consumer.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/event-consumer/event-consumer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="42" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="210">
+                <state line="2" column="55" selection-start="97" selection-end="97" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210">
                   <folding />
                 </state>
               </provider>
@@ -122,22 +113,20 @@
           </file>
           <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../PolymerElementConsumer/README.md">
-              <provider editor-type-id="MarkdownPreviewEditor">
-                <state />
-              </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="21" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="705">
+                <state line="13" column="21" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="build.dart" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build.dart">
+          <file leaf-file-name="event-handler.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
+                <state line="11" column="69" selection-start="462" selection-end="462" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
                   <folding>
-                    <marker date="1390379131000" expanded="true" signature="269:378" placeholder="{...}" />
+                    <marker date="1390817988000" expanded="true" signature="119:461" placeholder="..." />
+                    <marker date="1390817988000" expanded="true" signature="150:202" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -146,7 +135,7 @@
           <file leaf-file-name="hello-world.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="66" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
+                <state line="11" column="81" selection-start="391" selection-end="391" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
                   <folding />
                 </state>
               </provider>
@@ -158,7 +147,16 @@
                 <state />
               </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="70" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.4003336" vertical-offset="0" max-vertical-offset="1199">
+                <state line="15" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.28883183" vertical-offset="0" max-vertical-offset="779">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="404" selection-end="480" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="525">
                   <folding />
                 </state>
               </provider>
@@ -168,28 +166,30 @@
       </split-first>
       <split-second>
         <leaf>
+          <file leaf-file-name="event-handler.dart" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.dart">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="0" selection-start="39" selection-end="79" vertical-scroll-proportion="0.018610422" vertical-offset="0" max-vertical-offset="806">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pubspec.yaml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="26" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+                  <folding>
+                    <marker date="1390817622000" expanded="true" signature="49:151" placeholder="dependencies:" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="event-consumer.dart" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web/event-consumer/event-consumer.dart">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="application.dart" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../../WebApp.Base.UI/web/application.dart">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="49" selection-start="236" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1515">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="pubspec.yaml" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="23" selection-start="6" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1226">
+                <state line="0" column="0" selection-start="0" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
                   <folding />
                 </state>
               </provider>
@@ -198,7 +198,7 @@
           <file leaf-file-name="crudpresenter.dart" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../../WebApp.Base.Dart/lib/src/crudnames/crudpresenter.dart">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="86" selection-start="387" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2625">
+                <state line="0" column="18" selection-start="387" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2625">
                   <folding />
                 </state>
               </provider>
@@ -207,7 +207,7 @@
           <file leaf-file-name="test-without-html.dart" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../../WebApp.Base.Dart/test/test-without-html.dart">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="117" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+                <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
                   <folding />
                 </state>
               </provider>
@@ -243,7 +243,7 @@
           <file leaf-file-name="pubspec.lock" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pubspec.lock">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
+                <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1635">
                   <folding />
                 </state>
               </provider>
@@ -265,28 +265,32 @@
         <option value="$PROJECT_DIR$/web/hello-world.html" />
         <option value="$PROJECT_DIR$/web/stopwatch/stopwatch.html" />
         <option value="$PROJECT_DIR$/build.dart" />
-        <option value="$PROJECT_DIR$/web/hello-world/hello-world.html" />
         <option value="$PROJECT_DIR$/../PolymerSecondWorld/pubspec.yaml" />
         <option value="$PROJECT_DIR$/../PolymerSecondWorld/web/index.html" />
         <option value="$PROJECT_DIR$/../PolymerElementConsumer/web/index.html" />
         <option value="$PROJECT_DIR$/../PolymerElementConsumer/README.md" />
         <option value="$PROJECT_DIR$/web/stopwatch/stopwatch.dart" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/packages/webapp_base_dart/src/mvp/globaleventbus.dart" />
         <option value="$PROJECT_DIR$/../../WebApp.Base.Dart/lib/src/mvp/globaleventbus.dart" />
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/globaleventbus.dart" />
-        <option value="$PROJECT_DIR$/web/hello-world/hello-world.dart" />
         <option value="$PROJECT_DIR$/web/event-consumer/event-consumer.dart" />
         <option value="$PROJECT_DIR$/packages/PolymerHelloWorld/globaleventbus.dart" />
+        <option value="$PROJECT_DIR$/web/error-handler/error-handler.html" />
+        <option value="$PROJECT_DIR$/web/error-handler/error-handler.dart" />
         <option value="$PROJECT_DIR$/web/event-consumer/event-consumer.html" />
+        <option value="$PROJECT_DIR$/web/hello-world/hello-world.html" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/web/event-handler/event-handler.html" />
+        <option value="$PROJECT_DIR$/web/event-handler/event-handler.dart" />
+        <option value="$PROJECT_DIR$/web/hello-world/hello-world.dart" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="39" />
+    <option name="x" value="64" />
+    <option name="y" value="40" />
     <option name="width" value="2487" />
     <option name="height" value="1393" />
   </component>
@@ -316,6 +320,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -399,6 +404,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="event-handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolymerHelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolymerHelloWorld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="event-consumer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -433,7 +456,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,6 +472,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PolymerSecondWorld" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -464,14 +487,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" value="$PROJECT_DIR$/web/event-consumer/hello-world.dart" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -480,6 +495,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" value="$PROJECT_DIR$/web/event-consumer/hello-world.dart" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -527,6 +550,19 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -553,19 +589,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -604,25 +627,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -658,6 +662,25 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -679,15 +702,18 @@
       <workItem from="1390459966096" duration="7672000" />
       <workItem from="1390476198444" duration="858000" />
       <workItem from="1390477065381" duration="4441000" />
-      <workItem from="1390481563115" duration="502000" />
+      <workItem from="1390481563115" duration="1100000" />
+      <workItem from="1390556461497" duration="7000" />
+      <workItem from="1390556477008" duration="23000" />
+      <workItem from="1390807326916" duration="5200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20809000" />
+    <option name="totallyTimeSpent" value="26637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="39" width="2487" height="1393" extended-state="0" />
+    <frame x="64" y="40" width="2487" height="1393" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -708,8 +734,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1374233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862744" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13619632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32784313" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -729,46 +755,21 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/event-handler/event-handler.dart</url>
+          <line>17</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../PolymerElementConsumer/web.off/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PolymerElementConsumer/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
-          <folding>
-            <marker date="1390379131000" expanded="true" signature="269:378" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -781,23 +782,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1185">
-          <folding />
-        </state>
+        <state line="8" column="24" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="32" column="57" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.dart">
@@ -809,9 +804,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="20" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
@@ -825,7 +818,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
           <folding>
-            <marker date="1390379131000" expanded="true" signature="269:378" placeholder="{...}" />
+            <marker date="1390379131000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -849,23 +842,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
-          <folding />
-        </state>
+        <state line="8" column="24" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="32" column="57" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.dart">
@@ -877,9 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
-          <folding />
-        </state>
+        <state line="12" column="29" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
@@ -901,23 +886,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1185">
-          <folding />
-        </state>
+        <state line="8" column="24" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="32" column="57" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="11" column="8" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
@@ -948,16 +927,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding>
-            <marker date="1390379131000" expanded="true" signature="269:378" placeholder="{...}" />
+            <marker date="1390379131000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1249">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1249" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../PolymerElementConsumer/web.off/index.html">
@@ -969,33 +946,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PolymerElementConsumer/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="0" column="58" selection-start="58" selection-end="58" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/stopwatch/stopwatch.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
-          <folding />
-        </state>
+        <state line="10" column="15" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../WebApp.Base.UI/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="107" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
+        <state line="5" column="18" selection-start="107" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../WebApp.Base.UI/web/application.dart">
@@ -1012,23 +973,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="500" selection-end="500" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1965">
+        <state line="5" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1635">
           <folding />
         </state>
       </provider>
@@ -1049,14 +996,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../WebApp.Base.Dart/lib/src/crudnames/crudpresenter.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="86" selection-start="387" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2625">
+        <state line="0" column="18" selection-start="387" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../WebApp.Base.Dart/test/test-without-html.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="117" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <folding />
         </state>
       </provider>
@@ -1070,42 +1017,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/PolymerHelloWorld/globaleventbus.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="129" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
+        <state line="0" column="129" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/globaleventbus.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="24" column="1" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/event-consumer/event-consumer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="139" selection-end="139" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="210">
+        <state line="2" column="55" selection-start="97" selection-end="97" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/event-consumer/event-consumer.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="0" column="0" selection-start="0" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1226">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="6" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="17" column="26" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding>
+            <marker date="1390817622000" expanded="true" signature="49:151" placeholder="dependencies:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/json-0.9.1/lib/json.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/json/json.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="291" column="73" selection-start="9608" selection-end="9608" vertical-scroll-proportion="0.5882353" vertical-offset="3645" max-vertical-offset="12495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="69" selection-start="462" selection-end="462" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+          <folding>
+            <marker date="1390817988000" expanded="true" signature="119:461" placeholder="..." />
+            <marker date="1390817988000" expanded="true" signature="150:202" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/event-handler/event-handler.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="39" selection-end="79" vertical-scroll-proportion="0.018610422" vertical-offset="0" max-vertical-offset="806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="54" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hello-world/hello-world.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="81" selection-start="391" selection-end="391" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="404" selection-end="480" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PolymerElementConsumer/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
@@ -1115,7 +1117,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="70" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.4003336" vertical-offset="0" max-vertical-offset="1199">
+        <state line="15" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.28883183" vertical-offset="0" max-vertical-offset="779">
           <folding />
         </state>
       </provider>

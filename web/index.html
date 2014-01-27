@@ -3,6 +3,7 @@
 <head>
     <link rel="import" href="hello-world/hello-world.html">
     <link rel="import" href="event-consumer/event-consumer.html">
+    <link rel="import" href="event-handler/event-handler.html">
     <link rel="import" href="stopwatch/stopwatch.html">
     <script type="application/dart">export 'package:polymer/init.dart';</script>
 
@@ -11,7 +12,9 @@
 <body>
 
     <h1>Hi first world!</h1>
-    <hello-world></hello-world>
+    <event-handler>
+        <hello-world></hello-world>
+    </event-handler>
 
     <h1>Hi second world!</h1>
     <hello-world></hello-world>

@@ -5,6 +5,7 @@
     
     
     
+    
     <script src="index.html_bootstrap.dart.js"></script>
 
 </head>
@@ -12,17 +13,28 @@
 <body><polymer-element name="hello-world">
     <template>
         <button on-click="{{increment}}">Click Me</button>
+        <button on-click="{{fireevent}}">Fire an event</button>
+
         <p>Hello from inside a custom element! Clicks: {{count}}</p>
     </template>
     
 </polymer-element>
-<polymer-element name="event-consumer">
+<polymer-element name="event-consumer" on-hello-event="">
     <template>
         <p>Got {{count}} number of clicks.</p>
     </template>
     
 </polymer-element>
-<polymer-element name="tute-stopwatch">
+<polymer-element name="event-handler" on-hello-event="{{handleHelloEvent}}">
+    <template>
+        <style>
+            .error { color: red; }
+        </style>
+        <p class="error">EventHandler (Shows hello-world events!) Message: {{response}}, Random number: {{randomnumber}}</p>
+        <content></content>
+    </template>
+    
+</polymer-element><polymer-element name="tute-stopwatch">
 
     <template>
         <style>
@@ -54,7 +66,9 @@
 
 
     <h1>Hi first world!</h1>
-    <hello-world></hello-world>
+    <event-handler>
+        <hello-world></hello-world>
+    </event-handler>
 
     <h1>Hi second world!</h1>
     <hello-world></hello-world>

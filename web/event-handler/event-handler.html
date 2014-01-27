@@ -1,0 +1,12 @@
+<!-- event-handler.html -->
+<!DOCTYPE html>
+<polymer-element name="event-handler" on-hello-event="{{handleHelloEvent}}">
+    <template>
+        <style>
+            .error { color: red; }
+        </style>
+        <p class="error">EventHandler (Shows hello-world events!) Message: {{response}}, Random number: {{randomnumber}}</p>
+        <content></content>
+    </template>
+    <script type="application/dart" src="event-handler.dart"></script>
+</polymer-element>

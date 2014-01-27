@@ -8,6 +8,7 @@ dependencies:
   shadow_dom: any
   mdv: any
   event_bus: any
+  json: any
 
 transformers:
 -  polymer:
