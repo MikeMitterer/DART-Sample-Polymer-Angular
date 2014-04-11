@@ -11,7 +11,7 @@ void myRouteInitializer(Router router, RouteViewFactory views) {
     views.configure({
 
         'hello': ngRoute(
-            defaultRoute: true,
+            //defaultRoute: true,
             path: '/hello',
             enter: views('views/hello.html')),
 
