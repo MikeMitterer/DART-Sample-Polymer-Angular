@@ -1,4 +1,4 @@
-DART-Sample-PolymerHelloWorld
+DART-Sample Polymer + Angular
 =============================
 
 A sample to verify a [discussion][1] on DartLang (G+)
