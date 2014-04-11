@@ -1,18 +1,28 @@
-name: PolymerHelloWorld
+name: polymer_hello_world
+
 environment:
   sdk: any
 
 dependencies:
-  browser: any
-  polymer: any
-  shadow_dom: any
-  mdv: any
-  event_bus: any
+  polymer_elements:
+    git: https://github.com/ErikGrimes/polymer_elements
+
+  polymer_ui_elements:
+    git: https://github.com/ErikGrimes/polymer_ui_elements
+
+  angular:
+    git: https://github.com/MikeMitterer/angular.dart
+    # git: https://github.com/angular/angular.dart
+
   json: any
+  validate: any
 
 transformers:
+- angular
+
 -  polymer:
     entry_points:
     - web/index.html
-    - web/hello-world/event-consumer.html
-    - web/stopwatch/stopwatch.html
+
+    - example/mm_hello_world/index.html
+    - example/mm_test_data/index.html

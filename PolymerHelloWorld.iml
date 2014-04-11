@@ -4,6 +4,13 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/assets/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/fonts/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/mm_hello_world/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/mm_test_data/app/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/mm_test_data/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/example/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/polymer_hello_world" />
       <excludeFolder url="file://$MODULE_DIR$/web/event-consumer/packages" />
       <excludeFolder url="file://$MODULE_DIR$/web/event-handler/packages" />
       <excludeFolder url="file://$MODULE_DIR$/web/hello-world/packages" />
@@ -11,6 +18,7 @@
       <excludeFolder url="file://$MODULE_DIR$/web/stopwatch/packages" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="application" />
   </component>
   <component name="org.twodividedbyzero.idea.findbugs">
     <option name="_basePreferences">
@@ -48,6 +56,7 @@
         <entry key="CheckCalls" value="false" />
         <entry key="CheckExpectedWarnings" value="false" />
         <entry key="CheckImmutableAnnotation" value="true" />
+        <entry key="CheckRelaxingNullnessAnnotation" value="true" />
         <entry key="CheckTypeQualifiers" value="true" />
         <entry key="CloneIdiom" value="true" />
         <entry key="ComparatorIdiom" value="true" />

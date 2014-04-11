@@ -5,6 +5,10 @@ A sample to verify a [discussion][1] on DartLang (G+)
 
 JavaScript-Version is [here][2]
 
+<strong>v2.0</strong>
+Works with Angular<br>
+event-handler is not supported anymore.
+
 <strong>v1.2</strong>
 event-handler added.
 Now something like this works:
