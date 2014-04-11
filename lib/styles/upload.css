@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* FileUpload - sollte später in application-(bootstrap).css integriert werden
+----------------------------------------------------------------------------- */
+
+#drop-zone {
+    border: 2px dashed #bbb;
+    border-radius: 10px;
+    color: #bbb;
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 25px;
+    text-align: center;
+}
+
+#drop-zone.hover {
+    background-color: #def;
+    border-color: #777;
+    color: #777;
+}

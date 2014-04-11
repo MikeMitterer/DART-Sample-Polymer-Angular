@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+
+    <link rel="stylesheet" href="styles/theme.css" media="screen">
+    <link rel="stylesheet" href="packages/polymer_hello_world/styles/all.css">
+
+    <!-- Main! (falls notwendig) -->
+    <script type='application/dart;component=1' src='main.dart'></script>
+
+    <!-- Elements -->
+    <link rel="import" href="packages/polymer_hello_world/mm_hello_world/mm_hello_world.html">
+
+    <!-- UI Framework (Bootstrap) -->
+    <link rel="import" href="packages/polymer_hello_world/mm_sample_container/mm_sample_container.html">
+    <link rel="import" href="packages/polymer_hello_world/mm_sample_navbar/mm_sample_navbar.html">
+    <link rel="import" href="packages/polymer_hello_world/mm_sample_footer/mm_sample_footer.html">
+
+    <!-- Polymer -->
+    <link rel="import" href="packages/polymer/polymer.html">
+
+    <!-- Zusätzliche Styles -->
+    <style>
+        mm-sample-navbar .navbar-nav a {
+            color : #ffffff;
+        }
+
+        mm-sample-navbar .navbar-nav a:hover {
+            background-color: #3aace7;
+        }
+
+    </style>
+    <!--
+    Template:
+        http://www.bootply.com/108620
+    -->
+</head>
+
+<body ng-cloak>
+<mm-sample-container>
+    <mm-sample-navbar title="Angular + Polymer">
+        <ul class="nav navbar-nav">
+            <li><a href="#/hello">Hello</a></li>
+            <li><a href="#/hellopolymer/53">Polymer</a></li>
+        </ul>
+    </mm-sample-navbar>
+
+    <div id="main">
+        <div class="col-md-12">
+            <section>
+                <ng-view>
+                    <div webapp-sample>
+                        <h2>Fixed + Fluid Bootstrap Template with Off-canvas Sidebar {{ctrl.value}}</h2>
+                    </div>
+                </ng-view>
+            </section>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="well"><p>Shrink the browser width to make the sidebar collapse off canvase.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="well"><p>4 cols</p></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="well"><p>4 cols</p></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="well"><p>4 cols</p></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="well"><p>6 cols, 6 small cols</p></div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="well"><p>6 cols, 6 small cols</p></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="well">4 cols, 6 small cols</div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="well">4 cols, 6 small cols</div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="well">4 cols, 12 small cols</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</mm-sample-container>
+<mm-sample-footer></mm-sample-footer>
+<script src="packages/browser/dart.js"></script>
+</body>
+</html>

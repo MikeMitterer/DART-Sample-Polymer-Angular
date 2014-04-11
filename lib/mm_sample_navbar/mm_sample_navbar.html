@@ -1,0 +1,58 @@
+<!-- mm_sample_navbar.html -->
+<!DOCTYPE html>
+<polymer-element name="mm-sample-navbar" attributes="title" type="sample">
+    <template>
+        <style>
+            @host {
+            }
+            /* new style for Chromium */
+            :host {
+
+            }
+
+        </style>
+
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+
+                <template if="{{sidebarLeftAvailable}}">
+                        <span class="visible-xs pull-left">
+                            <a href="#" type="button" class="btn navbar-btn"
+                               on-click="{{handleOffCanvasSideBar}}">
+                                <i class="glyphicon glyphicon-align-justify"></i>
+                            </a>
+                        </span>
+                </template>
+
+                <a class="navbar-brand" href="/">{{title}}</a>
+
+                <!-- Button auf der rechten Seite -->
+                    <span class="pull-right">
+                        <template if="{{logContainerAvailable}}">
+                            <a href="#" type="button" class="btn navbar-btn"
+                               on-click="{{handleToggleLogging}}">
+                                <i class="glyphicon glyphicon-list"></i>
+                            </a>
+                        </template>
+
+                        <template if="{{sidebarRightAvailable}}">
+                            <a href="#" type="button" class="btn navbar-btn"
+                               on-click="{{handleToggleRightSideBar}}">
+                                <i class="glyphicon glyphicon-cog"></i>
+                            </a>
+                        </template>
+                    </span>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-sample">
+                <content></content>
+            </div>
+
+
+        </div>
+    </template>
+
+    <script type="application/dart;component=1" src="mm_sample_navbar.dart"></script>
+
+</polymer-element>

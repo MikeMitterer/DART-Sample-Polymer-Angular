@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<polymer-element name="mm-hello-world" attributes="value" value="0">
+    <template>
+        <style>
+            @host {
+            :scope {
+                opacity: 0.6;
+                display: inline-block;
+                padding: 0.5em;
+                border-radius: 5px;
+
+                transition: opacity 400ms ease-in-out;
+                transition: background-color 100ms linear;
+            }
+
+            :hover {
+                opacity: 1;
+                background-color: #ffd162;
+                transition: background-color 900ms linear;
+                }
+            }
+            .sample { color: blue; }
+        </style>
+        <div>
+            <button on-click="{{increment}}">Increment Hello-World</button>
+            <p>Hello from inside a custom element! Clicks: <span class="sample">{{value}}</span></p>
+            <content>Hallo Content - clicks {{value}}</content>
+        </div>
+    </template>
+    <script type="application/dart;component=1" src="mm_hello_world.dart"></script>
+</polymer-element>

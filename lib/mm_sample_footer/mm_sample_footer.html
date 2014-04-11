@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<polymer-element name="mm-sample-footer" attributes="height" height="40">
+    <template>
+        <style>
+            /* Set the fixed height of the footer here */
+            #footer {
+                height: {{height}}px;
+
+                position: fixed;
+                bottom: 0px;
+                width:100%;
+            }
+
+            #footer > .container,
+            #footer > .container-fluid {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            #footer .text-muted {
+                margin: 10px 0;
+            }
+
+            #footer .text-muted a {
+                color: #dddddd;
+            }
+        </style>
+        <div id="push"></div>
+        <div id="footer" class="navbar-default">
+            <div class="container-fluid">
+                <content>
+                    <ul class="list-inline text-muted credit">
+                        <li><a href="http://getbootstrap.com/examples/sticky-footer-navbar/" target="_blank">Sticky
+                            Header/Footer</a></li>
+                        <li><a href="http://bootswatch.com/" target="_blank">Bootswatch - Themes</a></li>
+                    </ul>
+                </content>
+            </div>
+        </div>
+    </template>
+
+    <script type="application/dart;component=1" src="mm_sample_footer.dart"></script>
+
+</polymer-element>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<link rel="import" href="packages/polymer_hello_world/mm_sample_container/mm_sample_container.html">
+<link rel="import" href="packages/polymer_hello_world/mm_sample_navbar/mm_sample_navbar.html">
+<link rel="import" href="packages/polymer_hello_world/mm_sample_footer/mm_sample_footer.html">
+
+<polymer-element name="app-element" attributes="value" value="27">
+    <template>
+        <style>
+            /* new style for Chromium */
+            :host {
+            }
+        </style>
+
+        <mm-sample-container title="Data-Exchange">
+            <mm-sample-navbar title="Model-Test"></mm-sample-navbar>
+            <div class="container well">
+                Counter: {{counter.value}}
+                <div>
+                    <button on-click="{{increment}}">Increment from App-Element</button>
+                </div>
+                <div class="container-fluid well" style="margin-top: 1em;">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <mm-hello-world value="{{counter.value}}">
+                                <ul>
+                                    <template repeat="{{user in users}}">
+                                        <li>ID: {{user.id}} [{{user.counter.value}}] {{user.name}}: <strong>{{user.age +
+                                            10}} (+10)</strong></li>
+                                    </template>
+
+                                </ul>
+                            </mm-hello-world>
+                        </div>
+                        <div class="col-sm-6">
+                            <mm-hello-world value="{{counter.value}}">
+                                <ul>
+                                    <template repeat="{{user in users}}">
+                                        <li>ID: {{user.id}} [{{user.counter.value}}] {{user.name}}:
+                                            <strong>{{user.age}}</strong></li>
+                                    </template>
+
+                                </ul>
+                            </mm-hello-world>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mm-sample-container>
+        <mm-sample-footer height="40" id="mike"></mm-sample-footer>
+
+    </template>
+    <script type="application/dart;component=1" src='app_element.dart'></script>
+</polymer-element>

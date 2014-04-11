@@ -1,0 +1,55 @@
+/* Sticky footer styles
+    Weitere Infos: http://www.bootply.com/123464
+
+    (Wird eigentlich nicht mehr benötigt (8.4.14)
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+
+
+/*.logging-enabled #wrap {*/
+    /* Negative indent footer by its height (Footer + Logging) */
+    /*margin: 0 auto -140px;*/
+    /* Pad bottom by footer height (Footer + Logging) */
+    /*padding: 0 0 140px;*/
+    /*background-color : #ff00ff;*/
+
+/*}*/
+
+/* Set the fixed height of the footer here */
+/*#footer {*/
+    /*height: 40px;*/
+
+    /*position: fixed;*/
+    /*bottom: 0px;*/
+    /*width:100%;*/
+/*}*/
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/*#wrap > .container {*/
+    /*padding: 40px 15px 0;*/
+/*}*/
+.container .text-muted {
+    margin: 10px 0;
+}
+
+#footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container .text-muted a {
+    color: #dddddd;
+}
+
+code {
+    font-size: 80%;
+}

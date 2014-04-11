@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Polymer test</title>
+    <link rel="stylesheet" href="../assets/theme.css" media="screen">
+
+    <!-- Elements -->
+    <link rel="import" href="packages/polymer_hello_world/mm_hello_world/mm_hello_world.html">
+
+    <!-- UI Framework (Bootstrap) -->
+    <link rel="import" href="packages/polymer_hello_world/mm_sample_container/mm_sample_container.html">
+    <link rel="import" href="packages/polymer_hello_world/mm_sample_navbar/mm_sample_navbar.html">
+    <link rel="import" href="packages/polymer_hello_world/mm_sample_footer/mm_sample_footer.html">
+
+    <!-- Polymer -->
+    <link rel="import" href="packages/polymer/polymer.html">
+
+    <!-- Zusätzliche Styles -->
+    <style>
+        .sample { color : #FF0000; }
+    </style>
+</head>
+<body>
+<mm-sample-container>
+    <mm-sample-navbar title="HelloWorld + StyleChange im Dokument + im ShadowDOM"></mm-sample-navbar>
+
+    <div class="container well">
+
+
+        <p class="sample">Sample Text - wechselt die Farbe</p>
+        <p>Nur ein <span class="sample">Teil</span> sollte die Farbe wechseln</p>
+
+        <!-- Start- UND EndTag sonst wird der Content aus dem Element nicht angezeigt!-->
+        <mm-hello-world></mm-hello-world>
+
+        <hr/>
+        Zweites Element - Databinding mit &lt;content&gt;-Element ist nicht möglich<br>
+        (Light-ShadowDOM)<br>
+        <mm-hello-world value="10">
+            <template>
+                Mit Content aus index.html (Clicks: {{value}} (funkt mit &lt;template&th;)
+            </template>
+        </mm-hello-world>
+
+        <hr/>
+
+    </div>
+</mm-sample-container>
+<mm-sample-footer height="40" id="mike"></mm-sample-footer>
+<script src="packages/browser/dart.js"></script>
+</body>
+</html>
