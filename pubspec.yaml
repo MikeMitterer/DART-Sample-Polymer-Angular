@@ -18,7 +18,7 @@ dependencies:
   validate: any
 
 transformers:
-- angular
+#- angular
 
 -  polymer:
     entry_points:

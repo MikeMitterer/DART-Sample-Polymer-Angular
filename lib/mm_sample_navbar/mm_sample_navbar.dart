@@ -1,6 +1,6 @@
 import 'dart:html';
-import 'dart:async';
 import 'package:polymer/polymer.dart';
+import 'package:validate/validate.dart';
 
 @CustomTag('mm-sample-navbar')
 class SampleNavbarElement extends PolymerElement {
@@ -37,7 +37,7 @@ class SampleNavbarElement extends PolymerElement {
         e.preventDefault();
         _toggleBodyClass("show-log-window");
 
-        _setMarginForBottomArea();
+        //_setMarginForBottomArea();
     }
 
     // --------------------------------------------------------------------------------------------
@@ -56,36 +56,36 @@ class SampleNavbarElement extends PolymerElement {
      * Abhängig davon ob das Log-Window angezeigt wird oder nicht wird der Rand am unteren Fensterbereich
      * vergrößert bzw. verkleinert.
      */
-    void _setMarginForBottomArea() {
-        final LogContainerElement logcontainer = querySelector("mm-log-container");
-        final HtmlElement footer = querySelector("mm-sample-footer");
-        final HtmlElement wrap = $["wrap"];
-
-        bool isLogContainerVisible = false;
-        int heightLogContainer = 0;
-        int heightFooter = 0;
-        int fullHeightBottomArea = 0;
-
-        if(logcontainer != null) {
-            heightLogContainer = int.parse(logcontainer.getAttribute("height"));
-            isLogContainerVisible = logcontainer.getComputedStyle().display != "none";
-        }
-
-        if(footer  != null) {
-            final String height = footer.getAttribute("height");
-            heightFooter = int.parse(footer.getAttribute("height"));
-        }
-
-        fullHeightBottomArea += heightFooter;
-        if(isLogContainerVisible) {
-            fullHeightBottomArea += heightLogContainer;
-        }
-
-        if(wrap != null) {
-            wrap.style.marginBottom = "-${fullHeightBottomArea}px";
-            wrap.style.paddingBottom = "${fullHeightBottomArea}px";
-        }
-    }
+//    void _setMarginForBottomArea() {
+//        final LogContainerElement logcontainer = querySelector("mm-log-container");
+//        final HtmlElement footer = querySelector("mm-sample-footer");
+//        final HtmlElement wrap = $["wrap"];
+//
+//        bool isLogContainerVisible = false;
+//        int heightLogContainer = 0;
+//        int heightFooter = 0;
+//        int fullHeightBottomArea = 0;
+//
+//        if(logcontainer != null) {
+//            heightLogContainer = int.parse(logcontainer.getAttribute("height"));
+//            isLogContainerVisible = logcontainer.getComputedStyle().display != "none";
+//        }
+//
+//        if(footer  != null) {
+//            final String height = footer.getAttribute("height");
+//            heightFooter = int.parse(footer.getAttribute("height"));
+//        }
+//
+//        fullHeightBottomArea += heightFooter;
+//        if(isLogContainerVisible) {
+//            fullHeightBottomArea += heightLogContainer;
+//        }
+//
+//        if(wrap != null) {
+//            wrap.style.marginBottom = "-${fullHeightBottomArea}px";
+//            wrap.style.paddingBottom = "${fullHeightBottomArea}px";
+//        }
+//    }
 
 /*
     void closeClicked(Event e, var detail, Node target) {

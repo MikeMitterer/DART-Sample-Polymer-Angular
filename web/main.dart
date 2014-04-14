@@ -27,7 +27,7 @@ class MyControler {
     final Repository _repository;
 
     MyControler(final RouteProvider routeProvider,this._repository) {
-        final int value = routeProvider.parameters["callerID"];
+        final int value = int.parse(routeProvider.parameters["callerID"]);
         if(value != null && value != null) {
             _repository.value = value;
         }
