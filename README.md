@@ -1,11 +1,19 @@
 DART-Sample Polymer + Angular
 =============================
 
-<strong>v2.0</strong>
+<strong>v0.3.0</strong>
+Works now with Angular 0.10.0.<br>
+I also removed "applyAuthorStyles => true" from polymer-elements.<br>
+pub build works now.<br><br>
+In "build/web" I added a little "webserver" script to serve the whole thing on :8000<br>
+(Script needs python -m SimpleHTTPServer)<br><br>
+<strong>I had to copy boot*.css from build/web/styles to build/web by hand!!!</strong><br>
+
+<strong>v0.2.0</strong>
 Works with Angular (only in Dartium)<br>
 event-handler is not supported anymore.
 
-<strong>v1.2</strong>
+<strong>v0.1.2</strong>
 event-handler added.
 Now something like this works:
 ```html

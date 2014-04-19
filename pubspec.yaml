@@ -1,5 +1,7 @@
 name: polymer_hello_world
 
+version: 0.3.0
+
 environment:
   sdk: any
 
