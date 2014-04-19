@@ -13,7 +13,7 @@ class HelloWorldElement extends PolymerElement {
     @observable final List<User> users = toObservable(new ApplicationScope().users);
 
     HelloWorldElement.created() : super.created();
-    get applyAuthorStyles => true;
+    //get applyAuthorStyles => true;
 
     void increment(Event e, var detail, Node target) {
         value += 1;

@@ -13,7 +13,7 @@ class SampleContainer extends PolymerElement {
     SampleContainer.created() : super.created() {
     }
 
-    get applyAuthorStyles => true;
+    //get applyAuthorStyles => true;
 
 //    @override
 //    void enteredView() {

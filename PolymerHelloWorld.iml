@@ -4,19 +4,14 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/build" />
-      <excludeFolder url="file://$MODULE_DIR$/example/assets/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/fonts/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/mm_hello_world/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/mm_test_data/app/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/mm_test_data/packages" />
       <excludeFolder url="file://$MODULE_DIR$/example/packages" />
       <excludeFolder url="file://$MODULE_DIR$/packages/polymer_hello_world" />
-      <excludeFolder url="file://$MODULE_DIR$/web/event-consumer/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/web/event-handler/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/web/fonts/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/web/hello-world/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/fonts/packages" />
       <excludeFolder url="file://$MODULE_DIR$/web/packages" />
-      <excludeFolder url="file://$MODULE_DIR$/web/stopwatch/packages" />
       <excludeFolder url="file://$MODULE_DIR$/web/styles/packages" />
       <excludeFolder url="file://$MODULE_DIR$/web/views/packages" />
     </content>

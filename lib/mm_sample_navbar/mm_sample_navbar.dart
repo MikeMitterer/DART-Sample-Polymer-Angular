@@ -10,7 +10,7 @@ class SampleNavbarElement extends PolymerElement {
     @observable bool sidebarLeftAvailable = false;
     @observable bool logContainerAvailable = false;
 
-    get applyAuthorStyles => true;
+    //get applyAuthorStyles => true;
 
     SampleNavbarElement.created() : super.created() {
         sidebarRightAvailable = (querySelector("mm-sidebar.sidebar.right") != null);

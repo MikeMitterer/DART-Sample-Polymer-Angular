@@ -4,14 +4,14 @@ packages:
   analyzer:
     description: analyzer
     source: hosted
-    version: "0.13.5"
+    version: "0.13.6"
   angular:
     description:
       ref: null
-      resolved-ref: d9d98fcf8f17d3d4ae30c3e1f7b523c6a3cefbc7
+      resolved-ref: b0d2b4095291700292c6b460c110783330c669be
       url: "https://github.com/MikeMitterer/angular.dart"
     source: git
-    version: "0.9.10"
+    version: "0.10.0"
   args:
     description: args
     source: hosted
@@ -19,7 +19,7 @@ packages:
   barback:
     description: barback
     source: hosted
-    version: "0.11.1"
+    version: "0.12.0"
   browser:
     description: browser
     source: hosted
@@ -27,18 +27,15 @@ packages:
   code_transformers:
     description: code_transformers
     source: hosted
-    version: "0.1.1+1"
+    version: "0.1.3"
   collection:
     description: collection
     source: hosted
     version: "0.9.1"
   di:
-    description:
-      ref: null
-      resolved-ref: c7b039662ac8c9251c4b808d784cbfd2f96c3167
-      url: "git://github.com/angular/di.dart.git"
-    source: git
-    version: "0.0.35"
+    description: di
+    source: hosted
+    version: "0.0.38"
   html5lib:
     description: html5lib
     source: hosted
@@ -58,7 +55,7 @@ packages:
   observe:
     description: observe
     source: hosted
-    version: "0.10.0-pre.3"
+    version: "0.10.0-pre.4"
   path:
     description: path
     source: hosted
@@ -70,25 +67,18 @@ packages:
   polymer:
     description: polymer
     source: hosted
-    version: "0.10.0-pre.8"
+    version: "0.10.0-pre.9"
   polymer_elements:
     description:
       ref: null
-      resolved-ref: "385e4b083e0b25e8176eb564a823c27b528d9c46"
-      url: "https://github.com/ErikGrimes/polymer_elements"
+      resolved-ref: "4a71eeb4884764f52fae2e45e80a6291a5abaeb7"
+      url: "https://github.com/MikeMitterer/polymer_elements"
     source: git
-    version: "0.2.0-pre.6"
+    version: "0.2.0-pre.8"
   polymer_expressions:
     description: polymer_expressions
     source: hosted
     version: "0.10.0-pre.1"
-  polymer_ui_elements:
-    description:
-      ref: null
-      resolved-ref: f1aeb150ec9d9b4c6064d073851324eb49e41fad
-      url: "https://github.com/ErikGrimes/polymer_ui_elements"
-    source: git
-    version: "0.2.0-pre.6"
   route_hierarchical:
     description: route_hierarchical
     source: hosted
@@ -100,7 +90,7 @@ packages:
   smoke:
     description: smoke
     source: hosted
-    version: "0.1.0-pre.2"
+    version: "0.1.0-pre.3"
   source_maps:
     description: source_maps
     source: hosted
@@ -120,7 +110,7 @@ packages:
   validate:
     description: validate
     source: hosted
-    version: "1.2.4"
+    version: "1.3.0"
   web_components:
     description: web_components
     source: hosted

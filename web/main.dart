@@ -1,6 +1,7 @@
 import 'package:polymer/polymer.dart';
 import 'package:angular/angular.dart';
-import 'package:angular/angular_dynamic.dart';
+import 'package:angular/application_factory.dart';
+//import 'package:angular/angular_dynamic.dart';
 
 // HACK until we fix code gen size. This doesn't really fix it,
 // just makes it better.
@@ -11,7 +12,7 @@ void myRouteInitializer(Router router, RouteViewFactory views) {
     views.configure({
 
         'hello': ngRoute(
-            //defaultRoute: true,
+            defaultRoute: true,
             path: '/hello',
             enter: views('views/hello.html')),
 
@@ -22,7 +23,7 @@ void myRouteInitializer(Router router, RouteViewFactory views) {
     });
 }
 
-@NgController( selector: '[webapp-sample]', publishAs: 'ctrl')
+@Controller( selector: '[webapp-sample]', publishAs: 'ctrl')
 class MyControler {
     final Repository _repository;
 
@@ -65,5 +66,5 @@ class AppModule extends Module {
 
 @initMethod
 void init() {
-    dynamicApplication().addModule(new AppModule()).run();
+    applicationFactory().addModule(new AppModule()).run();
 }

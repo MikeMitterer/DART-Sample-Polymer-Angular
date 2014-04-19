@@ -1,1 +1,0 @@
-https://www.dartlang.org/tools/pub/assets-and-transformers.html

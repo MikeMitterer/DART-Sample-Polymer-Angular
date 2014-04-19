@@ -7,5 +7,5 @@ class SampleFooter extends PolymerElement {
     @observable int height = 0;
 
     SampleFooter.created() : super.created();
-    get applyAuthorStyles => true;
+    //get applyAuthorStyles => true;
 }
