@@ -9,6 +9,10 @@ In "build/web" I added a little "webserver" script to serve the whole thing on :
 (Script needs python -m SimpleHTTPServer)<br><br>
 <strong>I had to copy boot*.css from build/web/styles to build/web by hand!!!</strong><br>
 
+To run the sample - go to <b>build/web/</b><br>
+Run <b>./webserver</b><br>
+In Chrome you should see <b>http://localhost:8000/index.html</b><br>
+
 <strong>v0.2.0</strong>
 Works with Angular (only in Dartium)<br>
 event-handler is not supported anymore.
